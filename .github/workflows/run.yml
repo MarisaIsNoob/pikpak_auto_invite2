@@ -23,6 +23,6 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Run
         env:
-          INVITE_CODE: ${{secrets.INVITE_CODE}}
+          INVITE_CODE: ${{87308728.INVITE_CODE}}
           PUSHPLUS_TOKEN: ${{secrets.PUSHPLUS_TOKEN}}
         run: python run.py
